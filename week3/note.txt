@@ -1,0 +1,57 @@
+web- Jan 25, 2023 week3-2
+
+
+ws - recording with explaining
+
+================================
+string
+
+*string >> do not need any type 
+easy to creat and use
+
++ >> concate
+
+in C >> tolower function (upper to lower case) 
+put it in a loop and change each char
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+var test = "This si JS week 3";
+
+console.log(test.substr(1,5)); //his s >> include 5th
+console.log(test.substring(1,5)); //his >> not include 5th
+
+substr >> out class function ?
+
+
+===================================
+
+array
+
+var myarr = [10,5,"Blue", "red", 9]; //dont care type and size
+
+var emtarr = []; //declare empty array;
+
+
+
+
+==================================
+loop
+
+while / for / do-while / for-each / for-of
+
+foreach >> assign 2
+
+
+====================================
+regular expressions
+
+
+linux꺼랑 같음 
+
+
+[a-zA-Z]{3} = [a-zA-Z][a-zA-Z][a-zA-Z]
+
+
+quiz2 >>> string change to pattern .. blahblahblah

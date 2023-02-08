@@ -1,0 +1,180 @@
+web - Feb 08, 2023
+
+assign2 - object / array
+
+assign3 - 3 weeks(after reading week) / pure html / creat page
+>> do research and work 
+**validation check !!!!!!!!!!!!!!!!!!!!!!!!!
+
+assign4&5 - combine everything
+
+
+next 2 quiz will be HTML
+>> give you screen shot 
+html code for making that part
+
+
+HyperText Markup Language >> html
+
+
+javascript- brain
+css - design
+html - struct ?
+-node
+
+
+=============================
+HTML (name.html)
+
+>> To check just open the browser
+w3c - check error
+
+>>just text
+
+
+
+<!DOCTYPE html>
+>> doc type
+
+>> basic format
+
+<!DOCTYPE html>
+<head>
+
+</head>
+
+
+<body>
+
+</body>
+
+
+<footer>
+
+</footer>
+
+
+*<opening tag> </closing tag>
+ex) <head> </head>
+
+
+1. <title> Title of site </title>
+
+2. <p> paragraph </p>
+>>same line
+
+3. <br>
+>> break : break to new line // dont have closing tag
+
+4. 
+<h1></h1>  >> biggest / bold
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6> >> smallest
+
+For the header 1~6
+
+
+5.<u>underline</u> 
+
+
+6.<b>bold</b>
+
+
+7.<i>italic</i>
+
+
+8. <b><u>combine bold and underline</u></b>
+
+
+9. error
+ex) <b><u>bold and underline</b></u>
+wrong but work / to catch the error, use validator
+
+
+10. <hr> 
+>>horizontal line
+
+
+11. <a href = "https://www.google.ca"></a>
+link
+>> not working
+
+
+<a href = "https://www.google.ca">Google</a>
+>>correct
+
+* dont forget name
+
+
+12.<a href = "https://www.google.ca" target = "_blank">Google</a>
+open google in a new tab
+
+
+13.>> link between main and about using path
+
+<a href = "management/about.html">About us</a>
+>> go to about
+
+<a href = "../main.html">Go to main</a>
+>> go to main
+
+14. <img src = "./media/Screenshot_20230125_095035.png" width = "200" height = "200">
+>> upload image
+
+15.  <img src = "./media/Screenshot_20230125_095035.png" alt = "An image should show here" width = "200" height = "200">
+>>whem image is deleted, will show alternative message
+
+alt : alternative
+
+16. <figure></figure>
+>>The <figure> HTML element represents self-contained content, potentially with an optional caption, which is specified using the <figcaption> element. The figure, its caption, and its contents are referenced as a single unit.
+
+17. <figcaption> image description </figcaption>
+ex)
+<figure>
+        <figcaption>A cool hairstyle</figcaption>
+        <img src = "./media/Screenshot_20230125_095035.png" alt = "An image should show here" width = "200" height = "200">
+    </figure>
+
+
+18.<ol>Order list</ol>
+
+19. <li>List</li>
+>> order is important
+
+ex)
+<ol>
+    <li>Study</li>
+    <li>Play Games</li>
+    <li>Lunch</li>
+    <li>Sleep</li>
+</ol>
+
+20. <ul>Unorder list</ul>
+ex)
+<ul>
+    <li>ROME</li>
+    <li>MOLDIVE</li>
+    <li>HAWAII</li>
+    <li>ITALIA</li>
+</ul>
+
+
+ex) MIXED
+<h2> MIXED</h2>
+<ul>
+    <li>ROME</li>
+    <li>MOLDIVE
+        <ol>
+            <li>EAT</li>
+            <li>REST</li>
+            <li>HAVING FUN</li>
+        </ol>
+    </li>
+    <li>HAWAII</li>
+    <li>ITALIA</li>
+</ul>
+

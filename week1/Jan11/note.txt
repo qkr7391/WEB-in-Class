@@ -1,0 +1,124 @@
+폴더 먼저 만들고, 그리고 js 파일 만들기
+
+printf(c) == cout(c++) == console.log(js)
+
+
+
+CSS > design / skin on your body
+html >  / bone
+java scripts > / brain
+
+
+java scripts >1
+html & CSS >2 
+together
+
+js / html / css / together ...
+
+to run the code 
+terminal / new terminal / node filename.extend
+ex) node practice.js
+
+command use like a matrix
+
+console.log - do new line automatically.
+dont need ;
+dont need type for variale, just use var or let
+
+
+console.log("This is " + z + " and value of x is " + x);
+>> showing))This is Web222 and value of x is 9
+
+user input in javascripts is hackable, not safe.
+
+var - global scope
+for(var n = 0; n < 10; n++)
+{
+    console.log("I inside is: " + n);
+}
+console.log("I outside is: " + n);
+>> showing)) 
+I inside is: 5
+I inside is: 6
+I inside is: 7
+I inside is: 8
+I inside is: 9
+I outside is: 10
+
+
+let - nope
+>> showing)) error messege
+
+--------------
+var l = 9;
+var m = "9";
+
+if(x==y)
+{
+    console.log("Equal");
+}
+else
+{
+    console.log("Not Equal");
+}
+
+>> showing)) equal 
+|||| value가 같아서 equal로 나옴, int와 string/char의 구분이 없음?
+<<<<<<<<evaluate the value>>>>>>>>>>
+
+
+1. = >> assign
+
+2. ==  >> compare the value not type.
+
+3. === >> compare the value and type too.
+
+
+
+var l = 9;
+var m = "9";
+
+if(l==m)
+{
+    console.log("Equal");
+}
+else
+{
+    console.log("Not Equal");
+}
+
+if(l===m)
+{
+    console.log("Equal");
+}
+else
+{
+    console.log("Not Equal");
+}
+
+showing))  Equal
+		Not Equal
+
+
+
+
+---------------------
+if(w =8)
+{
+    console.log(w)
+};
+
+showing)) 8 
+//error 안 생김
+
+----------------------
+
+if(w =0)
+{
+    console.log(w)
+};
+
+>> not accept the value, noting is showing on the output
+
+
+

@@ -1,0 +1,3 @@
+var cf = "c";
+
+console.log(cf);
