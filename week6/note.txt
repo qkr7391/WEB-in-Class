@@ -1,0 +1,178 @@
+web - Feb 15
+
+
+
+assignment 2 - due this fri.
+assignment 3 - 3 weeks (simple, time consumming, 3-4 days
+
+*quiz - 2/22 wed(no lecture) / no lecture only lab >> do quiz only
+        all day available
+
+
+Mon - off
+
+
+
+=========================
+<table> </table>
+<tr>table row</tr>
+<td>table data</td>
+
+ex1)
+<tr>
+     <td>John</td>
+     <td>Philips</td>
+     <td>176543235</td>
+     <td>A</td>
+     <td>WEB222</td>
+</tr>
+
+ex2)
+<tr>
+     <th>First Name</th>
+     <th>Last Name</th>
+     <th>Student ID</th>
+     <th>Grade</th>
+     <th>Subject</th>
+</tr>
+
+---------------------
+
+<table border = "2px"> >> make a border line
+
+---------------------
+
+
+<td><b>First Name</b></td> >> bold
+<th> table header</th> 
+>>>> make it bold
+
+-----------------------
+
+********merging
+
+
+<td rowspan="2">WEB222</td>
+<!--<td>WEB222</td>--> //commented out
+<!-- -->
+
+2 rows
+
+merge 할 것들을 row / colum 확인하고 
+하나에는 셀 값을 주고, 나머지는 comment out으로 생략해주기
+
+ex) row
+
+<tr>
+     <td>John</td>
+     <td>Philips</td>
+     <td>176543235</td>
+     <td>A</td>
+     <td rowspan = "2">WEB222</td>
+</tr>
+
+<tr>
+     <td>Angelina</td>
+     <td>Pit</td>
+     <td>647828222</td>
+     <td>A++</td>
+     <!--<td>WEB222</td>-->
+</tr>
+
+
+ex) colum
+
+<tr>
+     <td colspan = "2">Natasha Rominove</td>
+     <!--<td>Rominove</td>-->
+     <td>456167864</td>
+     <td>A</td>
+     <td>OOP244</td>
+</tr>
+
+
+ex) 
+<tr>
+     <td>Notes</td>
+     <td colspan = "4">Grades Table</td>
+</tr>
+
+
+add 1 > remove 1
+add 3 > remove 3
+
+
+---------------------
+*caption
+
+<caption>caption for table</caption>
+
+-------------------------
+
+table >> header / body / footer
+
+*** color
+
+ex1) color for header
+
+<thead style = "background-color: lightblue;">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Student ID</th>
+            <th>Grade</th>
+            <th>Subject</th>
+        </tr>
+</thead>
+
+<thead>를 시작하고 끝내는 곳까지 영향.
+
+ex2) color for body
+
+<tbody style = "background-color: lightyellow;">
+        <tr>
+            <td>John</td>
+            <td>Philips</td>
+            <td>176543235</td>
+            <td>A</td>
+            <td>WEB222</td>
+        </tr>
+
+        <tr>
+            <td>Angelina</td>
+            <td>Pit</td>
+            <td>647828222</td>
+            <td>A++</td>
+            <td>WEB222</td>
+        </tr>
+
+        <tr>
+            <td>Natasha</td>
+            <td>Rominove</td>
+            <td>456167864</td>
+            <td>A</td>
+            <td>OOP244</td>
+        </tr>
+</tbody>
+
+
+ex3) color for foot
+
+<tfoot style="background-color: lightgreen";>
+        <tr>
+            <td>Frank</td>
+            <td>Castle</td>
+            <td>789461659</td>
+            <td>A-</td>
+            <td>OOP244</td>
+        </tr>
+</tfoot>
+
+
+
+
+
+
+
+
+
