@@ -1,0 +1,108 @@
+Genre : KPOP
+
+Name : K-only MUSIC
+
+Slogan : "Spread all the KPOPs to the world"
+
+Artists : BTS / BLACKPINK / PSY
+
+Songs
+BTS >>
+1. DOPE / 2016 /t [4.00]
+2. I NEED U /2016 [3.30]
+3. Blood Sweat & Tears / 2016 [3.37]
+4. DNA /2018 [3.43]
+5. FAKE LOVE /2018 /t [4.02]
+6. DYNAMITE /2020 /t [3.20]
+7. BUTTER / 2021 /t [2.45]
+8. PERMISSION TO DANCE / 2021 /t [3.08]
+
+
+
+BLACKPINK >>
+1. WHISTLE /2016 [3.31]
+2. BOOMBAYAH / 2016 [4.00]
+3. AS IF IT'S YOUR LAST / 2017
+4. DDU-DU DDU-DU / 2018 [3.30]
+5. KILL THIS LOVE / 2019 [3.10]
+6. HOW YOU LIKE THAT / 2020 [3.02]
+7. PINK VENOM /2022 [3.07]
+8. SHUT DOWN /2022 [2.56]
+
+
+
+PSY >>
+1. GANGNAM STYLE / 2012 /t [3.40]
+2. HANGOVER /2014 [5.09]
+3. DADDY /2015 [3.51]
+4. NEW FACE / 2017 [3.11]
+
+
+artist page
+id:artist1
+name:BTS
+links: 
+
+https://en.wikipedia.org/wiki/BTS
+https://ibighit.com/bts/eng/
+
+blackpink
+
+https://en.wikipedia.org/wiki/Blackpink
+https://www.ygfamily.com/artist/main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70
+
+psy
+https://en.wikipedia.org/wiki/Psy
+https://twitter.com/psy_oppa
+
+
+
+ {
+    id: "10001",
+    artistId: ["artist1"],
+    title: "DOPE",
+    year: "",
+    duration: ,
+    billboardTop10: false
+  },
+
+
+<button id="but1" onclick= "showing(0)"> BTS</button>
+      <button id="but2" onclick= "showing(1)"> BLACKPINK</button>
+      <button id="but3" onclick= "showing(2)"> PSY</button>
+
+
+
+
+window.onload = function () {
+   showingBtn();
+}
+
+function showingBtn(){
+    var buttons = document.getElementById("menu");
+   
+    for (let i = 0; i < window.artists.length; i++) {
+      var artistbtn = document.createElement("button");
+      artistbtn.setAttribute("id", window.artists[i].id);
+      artistbtn.setAttribute("class", "btn");
+      artistbtn.type = "button";
+      artistbtn.innerHTML = window.artists[i].name;
+      buttons.appendChild(artistbtn);
+    }
+}
+
+    const myButton = document.getElementById(window.artists[i].id);
+
+    myButton.forEach((action, i) => {
+        action.addEventListener("click", function () {
+          showing(window.artists[i]);
+        });
+    });
+    
+    const tableRows = document.querySelectorAll("tr");
+    tableRows.forEach((action) => {
+    action.addEventListener("click", function () {
+      console.log(this);
+    });
+  });
+  

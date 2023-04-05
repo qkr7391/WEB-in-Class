@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Change this to your name-->
+    <meta name="author" content="Sae-mi Park" />
+    <meta name="description" content="WEB222 2023 Assignment 5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+    <title>WEB222 Music App</title>
+    <!-- Classless CSS Stylesheet - https://oxal.org/projects/sakura/ -->
+    <link rel="stylesheet" href="./css/sakura.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <!-- Change this to your App's info -->
+      <h1>KtoWORLD MUSIC</h1>
+      <p>SPREAD ALL THE K-POPS TO THE WORLD</p>
+    </header>
+
+    <nav id="menu">
+      <!-- Dynamically create your menu category buttons here -->
+      
+    <p id="demo"></p>
+    </nav>
+
+
+
+    <main>
+      <h2 id="selected-artist">
+        <!-- Dynamically update the selected category title -->
+      </h2>
+
+      <div id="songs"></div>
+
+        <!-- <div class="cardrow">
+        <h4>MUSIC CARD</h4>
+
+        <div class="card">
+          <img src = ".\1.jpg", class="image", id="image" alt="Avatar" style="width:100%">
+          <div class="songs">
+            <h4 class="title", id="title"></h4>
+            <span class="year", id="year"></span>
+            <p class="duration", id="duration"></p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src = ".\2.jpg", class="image", id="image" alt="Avatar" style="width:100%">
+          <div class="songs">
+            <h4 class="title", id="title"></h4>
+            <span class="year", id="year"></span>
+            <p class="duration", id="duration"></p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src = ".\3.jpg", class="image", id="image" alt="Avatar" style="width:100%">
+          <div class="songs">
+            <h4 class="title", id="title"></h4>
+            <span class="year", id="year"></span>
+            <p class="duration", id="duration"></p> 
+          </div>
+        </div>
+      </div> -->
+
+
+
+      <!-- <table>
+        <table id="tb1">
+          <caption> INFORMATION </caption>
+          <thead style="background-color: lightblue" >
+              <tr>
+                  <th>Song Name</th>
+                  <th>Year Recorded</th>
+                  <th>Duration(mm:ss)</th>
+              </tr>
+          </thead>
+        <tbody id="songs">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+      </table> -->
+    </main>
+
+    <!-- JavaScript Data Files -->
+    <script src="./js/artists.js"></script>
+    <script src="./js/songs.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
